@@ -18,13 +18,6 @@ try:
         password="password"
     )
 
-    # mongo_client = MongoClient(
-    #     '127.0.0.1',
-    #     27017,
-    #     username="root",
-    #     password="password"
-    # )
-
     mongo_db = mongo_client.cats
     mongo_quotes = mongo_client.quotes
     mongo_authors = mongo_client.authors
